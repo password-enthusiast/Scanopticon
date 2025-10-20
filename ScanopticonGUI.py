@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""
-scan_gui_internet_random_with_defaults.py
 
-Tkinter GUI wrapper around a threaded HTTP scanner (standard library only).
-Includes Internet-wide random scan option and uses the original scan_autoscale.py
-default ports and paths as the GUI defaults.
-
-Author: ChatGPT (GPT-5 Thinking mini)
-"""
 import os
 import sys
 import threading
@@ -404,4 +396,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
