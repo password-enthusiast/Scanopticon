@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-"""
-scan_autoscale.py
 
-Standard-library threaded HTTP scanner that auto-selects thread count based on CPU cores.
-Scans IP ranges (CIDR, dash-range, or start+end), generates URLs on the fly, and logs results.
-
-Usage examples:
-  python scan_autoscale.py 192.168.1.0/24
-  python scan_autoscale.py 192.168.1.10-192.168.1.200 --max-workers 120 --timeout 8
-  python scan_autoscale.py 192.168.1.10 192.168.1.200 --multiplier 6 --all
-"""
 import sys
 import os
 import ctypes
@@ -337,3 +327,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
